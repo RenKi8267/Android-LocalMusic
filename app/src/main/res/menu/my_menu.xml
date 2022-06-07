@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item android:id="@+id/item_single_song" android:title="单曲" />
+        <item android:id="@+id/item_album" android:title="专辑" />
+        <item android:id="@+id/item_singer" android:title="歌手" />
+        <item android:id="@+id/item_directory" android:title="文件夹" />
+
+</menu>

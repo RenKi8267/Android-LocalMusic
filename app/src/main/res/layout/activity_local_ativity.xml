@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LocalActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/local_toolbar"
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            app:navigationIcon="@drawable/ic_arrows"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="本地歌曲"
+            app:titleTextColor="@color/black" />
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/single_song"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="单曲"
+                app:tabRippleColor="@color/grey" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/album"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="专辑" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/singer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="歌手" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/directory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="文件夹" />
+        </com.google.android.material.tabs.TabLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="80dp"
+
+                android:orientation="horizontal" />
+
+<!--            <include-->
+<!--                layout="@layout/player_layout"-->
+<!--                android:id="@+id/player_bottom"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentBottom="true" />-->
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

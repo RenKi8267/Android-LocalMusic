@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AlbumFragement">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/album_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.example.pages.myView.CharacterListView
+        android:id="@+id/characer_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stateListAnimator="@null"/>
+
+</FrameLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:id="@+id/begin_player"
+    android:background="@drawable/player_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        >
+
+        <ImageButton
+            android:id="@+id/return_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            app:srcCompat="@drawable/ic_down_arrows" />
+
+        <com.example.pages.myView.CircleImageView
+            android:id="@+id/siv_icon"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/default_record_album" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.example.pages.myView.CenterTextView
+            android:id="@+id/text_music_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+
+            android:text="歌名"
+            android:textColor="#FFFFFF"
+
+            android:textSize="26dp" />
+
+
+        <TextView
+            android:id="@+id/text_view_artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/text_music_name"
+            android:layout_centerHorizontal="true"
+            android:text="歌手名"
+            android:textColor="#FFFFFF"
+
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dp"
+
+        android:gravity="center_vertical"
+        >
+        <SeekBar
+            android:layout_width="match_parent"
+            android:id="@+id/seek_bar"
+            android:max="100"
+            style="@style/CustomSeekbarStyle"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="8dp"
+        android:showDividers="middle"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/play_way_btn"
+            android:layout_width="36dp"
+            android:background="@drawable/xunhuanbofang"
+            android:layout_marginRight="16dp"
+            android:layout_height="36dp" />
+        <Button
+            android:id="@+id/play_last_btn"
+            android:layout_width="40dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/last"
+            android:layout_height="40dp" />
+        <Button
+            android:id="@+id/play_or_pause_btn"
+            android:layout_width="55dp"
+            android:gravity="center"
+
+            android:background="@drawable/bofang"
+            android:layout_height="55dp" />
+        <Button
+            android:id="@+id/play_next_btn"
+            android:layout_width="40dp"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/next"
+            android:layout_height="40dp" />
+        <Button
+            android:id="@+id/play_menu_btn"
+            android:layout_width="40dp"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/menu"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+</LinearLayout>

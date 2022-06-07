@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProject/Pages/app/src/main/res/drawable/close_gray.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/Pages/app/src/main/res/drawable/ic_arrows.xml" value="0.102" />
+        <entry key="..\:/AndroidProject/Pages/app/src/main/res/drawable/ic_down_arrows.xml" value="0.1565" />
+        <entry key="..\:/AndroidProject/Pages/app/src/main/res/drawable/ic_music.xml" value="0.1565" />
+        <entry key="..\:/AndroidProject/Pages/app/src/main/res/drawable/ic_noti_last.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/Pages/app/src/main/res/drawable/ic_noti_next.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/Pages/app/src/main/res/drawable/ic_noti_play.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/Pages/app/src/main/res/drawable/ic_seek_bar.xml" value="0.1185" />
+        <entry key="..\:/AndroidProject/Pages/app/src/main/res/drawable/layer_list_shadow.xml" value="0.1185" />
+        <entry key="..\:/AndroidProject/Pages/app/src/main/res/drawable/layer_list_toolbar.xml" value="0.1185" />
+        <entry key="..\:/AndroidProject/Pages/app/src/main/res/drawable/music_progressbar_style.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/Pages/app/src/main/res/drawable/next_icon.xml" value="0.102" />
+        <entry key="..\:/AndroidProject/Pages/app/src/main/res/drawable/player_background.xml" value="0.1185" />
+        <entry key="..\:/AndroidProject/Pages/app/src/main/res/drawable/round_shape.xml" value="0.154" />
+        <entry key="..\:/AndroidProject/Pages/app/src/main/res/drawable/seekbar_progress.xml" value="0.1185" />
+        <entry key="..\:/AndroidProject/Pages/app/src/main/res/drawable/toolbar_text_color_selector.xml" value="0.154" />
+        <entry key="..\:/AndroidProject/Pages/app/src/main/res/layout/activity_detail.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/Pages/app/src/main/res/layout/activity_detail_player.xml" value="0.16666666666666666" />
+        <entry key="..\:/AndroidProject/Pages/app/src/main/res/layout/activity_local_ativity.xml" value="0.16666666666666666" />
+        <entry key="..\:/AndroidProject/Pages/app/src/main/res/layout/album_item.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/Pages/app/src/main/res/layout/begin_player.xml" value="0.22" />
+        <entry key="..\:/AndroidProject/Pages/app/src/main/res/layout/detail_item.xml" value="0.4179431072210066" />
+        <entry key="..\:/AndroidProject/Pages/app/src/main/res/layout/fragment_not_found.xml" value="0.16666666666666666" />
+        <entry key="..\:/AndroidProject/Pages/app/src/main/res/layout/music_item.xml" value="0.3333333333333333" />
+        <entry key="..\:/AndroidProject/Pages/app/src/main/res/layout/music_notification.xml" value="0.23443983402489627" />
+        <entry key="..\:/AndroidProject/Pages/app/src/main/res/layout/no_music_layout.xml" value="0.1539855072463768" />
+        <entry key="..\:/AndroidProject/Pages/app/src/main/res/layout/player_layout.xml" value="0.22" />
+        <entry key="..\:/AndroidProject/Pages/app/src/main/res/layout/singer_item.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/Pages/app/src/main/res/layout/test.xml" value="0.22" />
+        <entry key="..\:/AndroidProject/Pages/app/src/main/res/menu/detail_item_menu.xml" value="0.17916666666666667" />
+        <entry key="..\:/AndroidProject/Pages/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1565" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_13" default="true" project-jdk-name="13" project-jdk-type="JavaSDK" />
+</project>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/next" android:title="下一首歌" />
+    <item android:id="@+id/add" android:title="添加到歌单" />
+    <item android:id="@+id/filter" android:title="过滤该歌曲所在的文件夹" />
+    <item android:id="@+id/delete" android:title="删除" />
+    <item android:id="@+id/search_update" android:title="查看/编辑歌曲信息" />
+
+</menu>

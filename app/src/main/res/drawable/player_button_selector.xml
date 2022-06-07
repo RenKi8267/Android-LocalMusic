@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--  播放按钮按下时  -->
+    <item android:drawable="@drawable/play_pause" android:state_pressed="true"  />
+
+    <!--  最后一个item不设置，即表示所有其他状态  -->
+    <item android:drawable="@drawable/play_icon" />
+</selector>
